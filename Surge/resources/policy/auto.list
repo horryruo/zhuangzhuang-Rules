@@ -22,3 +22,6 @@ ProxyF = ss, [SERVER ADDRESS], [GENERATED PORT], encrypt-method = [ENCRYPT METHO
 
 # 代理类型：V2ray
 ProxyVmess= vmess, [SERVER ADDRESS], [GENERATED PORT], username = [UUID], ws=true, tls=true, ws-path=/v2, ws-headers=X-Header-1:value|X-Header-2:value
+
+# 代理类型：Trojan
+TrojanA = trojan, [SERVER ADDRESS], [GENERATED PORT], password = [PASSWORD]
